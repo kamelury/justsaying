@@ -13,6 +13,7 @@
 		2467C4BC1A66CCE100E14BC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2467C4BA1A66CCE100E14BC6 /* Main.storyboard */; };
 		2467C4BE1A66CCE100E14BC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2467C4BD1A66CCE100E14BC6 /* Images.xcassets */; };
 		2467C4C11A66CCE100E14BC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2467C4BF1A66CCE100E14BC6 /* LaunchScreen.xib */; };
+		2467C4D81A66CE1200E14BC6 /* KWSayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2467C4D71A66CE1200E14BC6 /* KWSayingViewController.m */; };
 		2467C4DA1A66CEB000E14BC6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2467C4D91A66CEB000E14BC6 /* Podfile */; };
 		DCFCB8DA7A1D9DA90A5B7C39 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB5AC030517DC7528C0047E /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,8 @@
 		2467C4BD1A66CCE100E14BC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2467C4C01A66CCE100E14BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2467C4C61A66CCE100E14BC6 /* justsayingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = justsayingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2467C4D61A66CE1200E14BC6 /* KWSayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWSayingViewController.h; sourceTree = "<group>"; };
+		2467C4D71A66CE1200E14BC6 /* KWSayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWSayingViewController.m; sourceTree = "<group>"; };
 		2467C4D91A66CEB000E14BC6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		7FB5AC030517DC7528C0047E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0FCE02A1A1C580E7C24C1DF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +107,8 @@
 				2467C4BD1A66CCE100E14BC6 /* Images.xcassets */,
 				2467C4BF1A66CCE100E14BC6 /* LaunchScreen.xib */,
 				2467C4B01A66CCE100E14BC6 /* Supporting Files */,
+				2467C4D61A66CE1200E14BC6 /* KWSayingViewController.h */,
+				2467C4D71A66CE1200E14BC6 /* KWSayingViewController.m */,
 			);
 			path = justsaying;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 				2467C4B91A66CCE100E14BC6 /* ViewController.m in Sources */,
 				2467C4B61A66CCE100E14BC6 /* AppDelegate.m in Sources */,
 				2467C4B31A66CCE100E14BC6 /* main.m in Sources */,
+				2467C4D81A66CE1200E14BC6 /* KWSayingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

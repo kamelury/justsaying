@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIPageViewControllerDataSource>
 
+@property (weak, nonatomic) IBOutlet UIButton *startCarousel;
+@property (strong, nonatomic) UIPageViewController *pageController;
+@property (strong, nonatomic) NSArray *pageSayings;
 
 @end
 
