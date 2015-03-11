@@ -409,6 +409,7 @@
 					"\"Reveal\"",
 					"-ObjC",
 					"-lz",
+					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
