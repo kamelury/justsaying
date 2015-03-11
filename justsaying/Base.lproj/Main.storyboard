@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bcs-RF-tn5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bcs-RF-tn5">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -24,14 +24,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" indicatorStyle="black" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RiT-kx-REa">
-                                <rect key="frame" x="25" y="218" width="553" height="164"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" indicatorStyle="black" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RiT-kx-REa">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" red="0.78823536630000002" green="0.1960784495" blue="0.53725492949999998" alpha="1" colorSpace="deviceRGB"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="490" id="KH4-4m-Uo6"/>
-                                    <constraint firstAttribute="height" constant="164" id="KmS-nZ-7yb"/>
-                                </constraints>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -43,25 +39,15 @@
                                     </fragment>
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="KH4-4m-Uo6"/>
-                                    </mask>
-                                </variation>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="RiT-kx-REa" secondAttribute="trailing" constant="22" id="BAO-ZZ-hhW"/>
-                            <constraint firstItem="RiT-kx-REa" firstAttribute="leading" secondItem="Vt7-8w-bBq" secondAttribute="leading" constant="25" id="HFf-sM-UZh"/>
-                            <constraint firstAttribute="centerY" secondItem="RiT-kx-REa" secondAttribute="centerY" id="uOV-hi-ce2"/>
-                            <constraint firstAttribute="centerX" secondItem="RiT-kx-REa" secondAttribute="centerX" id="zgq-W5-xFn"/>
+                            <constraint firstItem="RiT-kx-REa" firstAttribute="leading" secondItem="Vt7-8w-bBq" secondAttribute="leading" id="7T0-XX-ua5"/>
+                            <constraint firstAttribute="trailing" secondItem="RiT-kx-REa" secondAttribute="trailing" id="BAO-ZZ-hhW"/>
+                            <constraint firstItem="RiT-kx-REa" firstAttribute="top" secondItem="Vt7-8w-bBq" secondAttribute="top" id="Fst-j8-JzN"/>
+                            <constraint firstAttribute="bottom" secondItem="RiT-kx-REa" secondAttribute="bottom" id="wuA-gb-PQ8"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="zgq-W5-xFn"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections>
                         <outlet property="sayingTextView" destination="RiT-kx-REa" id="AC5-LH-14j"/>

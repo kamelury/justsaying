@@ -18,12 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.pageSayings = @[@"Decide that you want it more than you are afraid of it.", @"the difference between who tou are and who you want to be is what you do", @"If that is what you fear, that is what you should do!", @"Thoughts design my energy. My thoughts will design the energy that move me"];
+    self.pageSayings = @[@"Decide that you want it more than you are afraid of it.", @"The difference between who you are and who you want to be is what you do.", @"If that is what you fear, that is what you should do!", @"Thoughts design my energy. My thoughts will design the energy that moves me."];
     
     self.pageController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
     self.pageController.dataSource = self;
-    //
-//    [[self.pageController view] setFrame:[[self view] bounds]];
     self.pageController.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - 30);
     KWSayingViewController *viewControllerObject = [self viewControllerAtIndex:0];
     NSArray *viewControllers = [NSArray arrayWithObject:viewControllerObject];

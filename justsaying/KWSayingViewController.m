@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.sayingTextView.textContainerInset = UIEdgeInsetsMake(40, 20, 0, 20);
     self.sayingTextView.text = self.sayingText;
+    self.sayingTextView.textColor = [UIColor whiteColor];
+    self.sayingTextView.font = [UIFont systemFontOfSize:22];
 }
 
 - (void)didReceiveMemoryWarning {
